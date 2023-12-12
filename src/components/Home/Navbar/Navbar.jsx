@@ -19,7 +19,7 @@ const Navbar = () => {
       <h1 id='typewriter' className="mb-5 text-5xl font-bold">I'am Mohammad Mashrafil Hossain Mahi</h1>
       <p className="mb-5 text-5xl font-bold">I'am a <span className='text-orange-600 border-b-2 border-orange-600'>{typeEffect}</span></p>
      
-      <button className="btn bg-orange-700 text-white text-lg font-bold py-2 px-4">Hire Me</button>
+      <button className="btn mt-10 bg-orange-700 text-white text-xl font-bold py-2 px-4">Hire Me</button>
       
     </div>
   </div>

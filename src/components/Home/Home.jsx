@@ -6,7 +6,7 @@ import Navbar from "./Navbar/Navbar";
 
 const Home = () => {
     return (
-        <div className="mt-32">
+        <div className="mt-16">
             <Header></Header>
             <Navbar></Navbar>
             <AboutMe></AboutMe>

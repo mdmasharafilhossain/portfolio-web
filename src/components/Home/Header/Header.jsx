@@ -14,7 +14,7 @@ const Header = () => {
              style={{ fontWeight: "bold", fontSize: "22px", }}
             
         >
-           About Us
+           About Me
         </a></li>
     
     

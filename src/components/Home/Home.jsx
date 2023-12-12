@@ -1,6 +1,7 @@
 import AboutMe from "../AboutMe/AboutMe";
 import Header from "./Header/Header";
 import Navbar from "./Navbar/Navbar";
+import Skill from "./Skill/Skill";
 
 
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Header></Header>
             <Navbar></Navbar>
             <AboutMe></AboutMe>
+            <Skill></Skill>
         </div>
     );
 };

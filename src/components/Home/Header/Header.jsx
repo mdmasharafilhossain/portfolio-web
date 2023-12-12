@@ -16,6 +16,14 @@ const Header = () => {
         >
            About Me
         </a></li>
+        <li className=''><a
+             
+             href="#skill"
+             style={{ fontWeight: "bold", fontSize: "22px", }}
+            
+        >
+           Skill
+        </a></li>
     
     
     </>

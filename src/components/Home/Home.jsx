@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe/AboutMe";
+import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
 import Header from "./Header/Header";
 import Navbar from "./Navbar/Navbar";
@@ -14,6 +15,7 @@ const Home = () => {
             <AboutMe></AboutMe>
             <Skill></Skill>
             <Experience></Experience>
+            <Education></Education>
         </div>
     );
 };

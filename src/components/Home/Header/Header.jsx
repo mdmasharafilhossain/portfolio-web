@@ -24,6 +24,14 @@ const Header = () => {
         >
            Skill
         </a></li>
+        <li className=''><a
+             
+             href="#exp"
+             style={{ fontWeight: "bold", fontSize: "22px", }}
+            
+        >
+           Experience
+        </a></li>
     
     
     </>

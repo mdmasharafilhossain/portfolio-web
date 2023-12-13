@@ -3,6 +3,7 @@ import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
 import Header from "./Header/Header";
 import Navbar from "./Navbar/Navbar";
+import Projects from "./Projects/Projects";
 import Skill from "./Skill/Skill";
 
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Skill></Skill>
             <Experience></Experience>
             <Education></Education>
+            <Projects></Projects>
         </div>
     );
 };

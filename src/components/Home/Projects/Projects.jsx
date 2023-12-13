@@ -5,7 +5,7 @@ import { SlControlForward } from "react-icons/sl";
 import html from '../../../assets/html5.svg'
 import css3 from '../../../assets/css3.svg'
 import node from '../../../assets/node.svg'
-import react from '../../../assets/react.svg'
+
 import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -96,7 +96,7 @@ const Projects = () => {
                   <div >
                     <img className='w-[700px] border-2 border-orange-600 shadow-xl' src={tech} alt="" />
                   </div>
-                  <div className='flex-1 mt-3'>
+                  <div className='flex-1 mt-7'>
 
                   <div className='flex  gap-2 text-3xl'>
                       <span className='mt-1'><SlControlForward  className='text-orange-600'/></span>

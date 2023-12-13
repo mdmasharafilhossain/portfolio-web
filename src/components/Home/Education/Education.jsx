@@ -2,7 +2,7 @@ import { GiRoundShield } from "react-icons/gi";
 import { MdOutlineCastForEducation } from "react-icons/md";
 const Education = () => {
     return (
-        <div id="exp" className="mt-28 container mx-auto mb-10">
+        <div id="edu" className="mt-28 container mx-auto mb-10">
              <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">Education</h2>
              <div className="mt-20">
             <ul className="timeline timeline-vertical text-2xl">

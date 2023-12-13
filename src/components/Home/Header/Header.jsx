@@ -14,7 +14,7 @@ const Header = () => {
              style={{ fontWeight: "bold", fontSize: "22px", }}
             
         >
-           About Me
+           About 
         </a></li>
         <li className=''><a
              
@@ -31,6 +31,30 @@ const Header = () => {
             
         >
            Experience
+        </a></li>
+        <li className=''><a
+             
+             href="#edu"
+             style={{ fontWeight: "bold", fontSize: "22px", }}
+            
+        >
+           Education
+        </a></li>
+        <li className=''><a
+             
+             href="#projects"
+             style={{ fontWeight: "bold", fontSize: "22px", }}
+            
+        >
+           Projects
+        </a></li>
+        <li className=''><a
+             
+             href="#contact"
+             style={{ fontWeight: "bold", fontSize: "22px", }}
+            
+        >
+           Contact
         </a></li>
     
     

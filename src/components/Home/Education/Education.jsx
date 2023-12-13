@@ -19,7 +19,7 @@ const Education = () => {
   <li>
     < hr className="bg-orange-600 my-10"/>
     <div className="timeline-start timeline-box border-2 border-orange-600">
-      <p className="text-2xl font-bold  text-orange-600">BACHALOR DIGREE</p>
+      <p className="text-2xl font-bold  text-orange-600">BACHELOR DEGREE</p>
        <h2> October 2020 - Present | Green University Of Bangladesh</h2>
     </div>
     <div className="timeline-middle ">

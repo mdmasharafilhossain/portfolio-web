@@ -17,7 +17,7 @@ const Navbar = () => {
   <div className="hero-overlay  bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="">
-      <h1 id='typewriter' className="mb-5 text-5xl font-bold">I'am Mohammad Mashrafil Hossain Mahi</h1>
+      <h1 id='typewriter' className="mb-5  text-5xl font-bold">I'am Mohammad Mashrafil Hossain Mahi</h1>
       <p className="mb-5 text-5xl font-bold">I'am a <span className='text-orange-600 border-b-2 border-orange-600'>{typeEffect}</span></p>
      
       <div className=''>

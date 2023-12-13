@@ -1,5 +1,6 @@
 import banner from '../../../assets/banner2.jpg'
 import { useTypewriter  } from 'react-simple-typewriter';
+import { FaDownload } from "react-icons/fa6";
 const Navbar = () => {
     const [typeEffect] = useTypewriter({
         words: ['Web Developer', 'Learner', 'Student'],
@@ -19,7 +20,10 @@ const Navbar = () => {
       <h1 id='typewriter' className="mb-5 text-5xl font-bold">I'am Mohammad Mashrafil Hossain Mahi</h1>
       <p className="mb-5 text-5xl font-bold">I'am a <span className='text-orange-600 border-b-2 border-orange-600'>{typeEffect}</span></p>
      
-      <button className="btn mt-10 bg-orange-700 text-white text-xl font-bold py-2 px-4">Hire Me</button>
+      <div className=''>
+      
+      <a href='https://drive.google.com/file/d/1ZIVQaAshlf5FLmsjqK8EH-tO4L0Lx-sd/view?usp=drive_link'><button className="btn mt-10 bg-orange-700 text-white text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download Resume</button></a>
+      </div>
       
     </div>
   </div>

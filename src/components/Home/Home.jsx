@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe/AboutMe";
+import Footer from "../Footer/Footer";
 import Contact from "./Contact/Contact";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
@@ -20,6 +21,7 @@ const Home = () => {
             <Education></Education>
             <Projects></Projects>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

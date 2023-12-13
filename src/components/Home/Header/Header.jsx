@@ -1,14 +1,14 @@
-
+import profile from '../../../assets/rsz_finalfjh.png'
 import logo from '../../../assets/Screenshot (1216).png'
 const Header = () => {
     const NavLinks = <>
-    <li><a
+    <li><a className='text-orange-700'
              style={{ fontWeight: "bold", fontSize: "22px", }}
         
         >
             Home
         </a></li>
-        <li className=''><a
+        <li ><a className='text-orange-700'
              
              href="#about"
              style={{ fontWeight: "bold", fontSize: "22px", }}
@@ -16,7 +16,7 @@ const Header = () => {
         >
            About 
         </a></li>
-        <li className=''><a
+        <li className='text-orange-700'><a
              
              href="#skill"
              style={{ fontWeight: "bold", fontSize: "22px", }}
@@ -24,7 +24,7 @@ const Header = () => {
         >
            Skill
         </a></li>
-        <li className=''><a
+        <li className='text-orange-700'><a
              
              href="#exp"
              style={{ fontWeight: "bold", fontSize: "22px", }}
@@ -32,7 +32,7 @@ const Header = () => {
         >
            Experience
         </a></li>
-        <li className=''><a
+        <li className='text-orange-700'><a
              
              href="#edu"
              style={{ fontWeight: "bold", fontSize: "22px", }}
@@ -40,7 +40,7 @@ const Header = () => {
         >
            Education
         </a></li>
-        <li className=''><a
+        <li className='text-orange-700'><a
              
              href="#projects"
              style={{ fontWeight: "bold", fontSize: "22px", }}
@@ -48,7 +48,7 @@ const Header = () => {
         >
            Projects
         </a></li>
-        <li className=''><a
+        <li className='text-orange-700'><a
              
              href="#contact"
              style={{ fontWeight: "bold", fontSize: "22px", }}
@@ -80,7 +80,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end flex lg:mr-10 lg:space-x-2">
-                    
+                    <img className='w-16 border-2 border-orange-600 rounded-full' src={profile} alt="" />
                         
                        
                     </div>

@@ -22,7 +22,7 @@ const Navbar = () => {
      
       <div className=''>
       
-      <a href='https://drive.google.com/file/d/1ZIVQaAshlf5FLmsjqK8EH-tO4L0Lx-sd/view?usp=drive_link'><button className="btn mt-10 bg-orange-700 text-white text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download Resume</button></a>
+      <a href='https://drive.google.com/file/d/197_KqbyYhwJ4EU6iQ7yfDq9MR4datmvJ/view?usp=drive_link'><button className="btn mt-10 bg-orange-700 text-white text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download Resume</button></a>
       </div>
       
     </div>

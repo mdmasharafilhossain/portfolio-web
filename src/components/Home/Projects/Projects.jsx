@@ -1,6 +1,7 @@
 import newspaper from "../../../assets/news_paper.png";
 import travel from "../../../assets/tour_and_travel.png";
 import tech from "../../../assets/techLand.png";
+import HireMaster from "../../../assets/HireMaster.png";
 import { SlControlForward } from "react-icons/sl";
 import html from "../../../assets/html5.svg";
 import css3 from "../../../assets/css3.svg";
@@ -11,6 +12,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
 import { useState } from "react";
 
 const Projects = () => {
@@ -30,7 +32,7 @@ const Projects = () => {
           <div>
             <img
               className="w-[700px] border-2 border-orange-600 shadow-xl"
-              src={newspaper}
+              src={HireMaster}
               alt=""
             />
           </div>
@@ -42,21 +44,15 @@ const Projects = () => {
               <h1 className=" font-bold">HireMaster (Team Project)</h1>
             </div>
             <h2 className="ml-10 text-xl text-justify mt-2">
-              This is newspaper website. User can see news of all over the
-              world. User can also see premium article after taking
-              subscription. User also add article if he/she wish. User also see
-              all of the user number.This Project has also Admin panel
-              option.Admin can see the statistics of All Publisher Number.Also
-              see all Users list and Admin can make anyone admin.Admin also Add
-              publisher,approve article and many more.
+            Hire Master is an Online job searching  platform where individual job seekers can apply for jobs, create profiles with all necessary information also manage it. On the other hand, hiring managers post jobs containing all information about the job with individuals’ profiles. Managing jobs posted by the hiring manager, applications related to the job, and confirming an app.
             </h2>
-            <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-20 mt-5 ml-10 text-2xl">
+            <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-20 mt-9 ml-10 text-2xl">
               <img className="w-10" src={html} alt="" />
-              <img className="w-12" src={css3} alt="" />
               <SiTailwindcss className="text-6xl" />
               <FaReact className="text-5xl" />
               <img className="w-24" src={node} alt="" />
               <SiMongodb className="text-5xl" />
+              <SiRedux className="text-5xl"/>
             </div>
             <div className="flex md:gap-16 lg:justify-between mt-3">
               <div className="flex text-orange-600 gap-1 text-2xl p-1 ml-10 font-bold">

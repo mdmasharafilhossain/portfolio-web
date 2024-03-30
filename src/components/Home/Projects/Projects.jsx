@@ -59,13 +59,13 @@ const Projects = () => {
                 <h1 className="mt-1">
                   <MdLiveTv />
                 </h1>
-                <a href="https://newspaper-d448d.web.app/">live Site</a>
+                <a href="https://hiremaster.netlify.app/">live Site</a>
               </div>
               <div className="flex  text-orange-600  gap-1 text-2xl p-1 ml-10 font-bold">
                 <h1 className="mt-1">
                   <FaGithub />
                 </h1>
-                <a href=" https://github.com/mdmasharafilhossain/newspaper-website">
+                <a href=" https://github.com/mdmasharafilhossain/HireMaster-Client">
                   Client Side
                 </a>
               </div>
@@ -73,7 +73,7 @@ const Projects = () => {
                 <h1 className="mt-1">
                   <FaGithub />
                 </h1>
-                <a href="https://github.com/mdmasharafilhossain/newspaper-website-server">
+                <a href="https://github.com/mdmasharafilhossain/HireMaster-Server">
                   Server Side
                 </a>
               </div>

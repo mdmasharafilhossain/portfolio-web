@@ -17,7 +17,7 @@ const Projects = () => {
         <div id="projects" className="mt-28 container mx-auto mb-10">
             <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">My Projects</h2>
              <div className="mt-20">
-               {/* 1 */}
+               {/* Project 1 */}
                <div className="flex flex-col md:flex-col lg:flex-row gap-20">
                   <div >
                     <img className='w-[700px] border-2 border-orange-600 shadow-xl' src={newspaper} alt="" />
@@ -54,7 +54,7 @@ const Projects = () => {
                   </div>
                   
                </div>
-               {/* 2 */}
+               {/* Project  2 */}
                <div className="flex mt-20 flex-col md:flex-col lg:flex-row gap-20">
                   <div >
                     <img className='w-[700px] border-2 border-orange-600 shadow-xl' src={travel} alt="" />
@@ -91,7 +91,7 @@ const Projects = () => {
                   </div>
                   
                </div>
-               {/* 3 */}
+               {/*Project  3 */}
                <div className="flex mt-20 flex-col md:flex-col lg:flex-row gap-20">
                   <div >
                     <img className='w-[700px] border-2 border-orange-600 shadow-xl' src={tech} alt="" />

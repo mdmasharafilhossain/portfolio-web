@@ -10,18 +10,21 @@ import Skill from "./Skill/Skill";
 
 
 
+
 const Home = () => {
     return (
-        <div className="mt-16  mx-4 md:mx-5 lg:mx-0">
+        <div className="mt-16 ">
             <Header></Header>
             <Navbar></Navbar>
-            <AboutMe></AboutMe>
+           <div className=" mx-4 md:mx-5 lg:mx-0">
+           <AboutMe></AboutMe>
             <Skill></Skill>
             <Experience></Experience>
             <Education></Education>
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
+           </div>
         </div>
     );
 };

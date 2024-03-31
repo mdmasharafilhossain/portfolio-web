@@ -11,7 +11,7 @@ const AboutMe = () => {
 
             <div className='flex flex-col lg:flex-row lg:gap-20 mt-20'>
               <div className='' data-aos="flip-left">
-                 <img className='h-[600px] mb-10 border-2 border-orange-600'   src={profile} alt="" />
+                 <img className='h-[600px] mb-10 border-2 shadow-xl border-orange-600'   src={profile} alt="" />
               </div>
               <div className='flex-1 mt-2'>
                    <h2 className='text-5xl font-bold text-orange-600'>MERN Stack Developer</h2>

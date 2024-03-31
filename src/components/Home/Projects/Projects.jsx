@@ -260,7 +260,7 @@ const Projects = () => {
         )}
          {/* "See All Projects button */}
          {!showAllProjects && (
-                    <button className="mt-10  bg-orange-600 text-white py-2 px-4 rounded" onClick={toggleShowAllProjects}>
+                    <button className="mt-10 font-medium  bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded" onClick={toggleShowAllProjects}>
                         See All Projects
                     </button>
                 )}

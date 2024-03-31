@@ -12,7 +12,7 @@ import Skill from "./Skill/Skill";
 
 const Home = () => {
     return (
-        <div className="mt-16">
+        <div className="mt-16  mx-4 md:mx-5 lg:mx-0">
             <Header></Header>
             <Navbar></Navbar>
             <AboutMe></AboutMe>

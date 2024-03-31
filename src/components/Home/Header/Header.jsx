@@ -69,13 +69,13 @@ const Header = () => {
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <HiOutlineBars3 className='text-2xl'/>
                             </label>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  rounded-box w-52">
                              {NavLinks}
                             </ul>
                         </div>
                         <img className='w-96 ml-10  md:ml-24 lg:ml-5' src={logo} alt="" />
                     </div>
-                    <div className="navbar-center hidden lg:flex">
+                    <div className="navbar-center  lg:ml-40  hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
                             {NavLinks}
                         </ul>

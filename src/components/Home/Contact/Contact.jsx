@@ -24,9 +24,9 @@ const Contact = () => {
             <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">Contact</h2>
             {/* service id: service_r3kvpqc */}
             {/* templete id : template_mo1il8d */}
-            <form className='border-4 shadow-xl  border-orange-600 lg:p-20 lg:mr-72 lg:ml-96 mt-20' ref={form} onSubmit={sendEmail}>
+            <form className='border-4 shadow-xl  border-orange-600 p-6 md:p-10 lg:p-20 lg:mr-72 lg:ml-96 mt-20' ref={form} onSubmit={sendEmail}>
            <h2 className='text-4xl font-bold text-center mb-10 text-orange-600'>Contact Me</h2>
-      <div className='flex md:gap-32 lg:gap-16'>
+      <div className='flex gap-5 md:gap-32 lg:gap-16'>
       <label className="form-control w-full max-w-xs">
   <div className="label">
     <span className="label-text">Name</span>

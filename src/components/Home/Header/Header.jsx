@@ -73,7 +73,7 @@ const Header = () => {
                              {NavLinks}
                             </ul>
                         </div>
-                        <img className='w-96 ml-10  md:ml-24 lg:ml-5' src={logo} alt="" />
+                        <img className='w-96  ml-7 sm:ml-10  md:ml-24 lg:ml-5' src={logo} alt="logo" />
                     </div>
                     <div className="navbar-center  lg:ml-40  hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
@@ -81,7 +81,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end flex lg:mr-10 lg:space-x-2">
-                    <img className='w-16 border-2 border-orange-600 rounded-full' src={profile} alt="" />
+                    <img className='w-12 sm:w-12 md:w-16 lg:w-16 border-2 border-orange-600 rounded-full' src={profile} alt="" />
                         
                        
                     </div>

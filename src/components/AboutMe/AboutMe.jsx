@@ -6,8 +6,8 @@ import profile from '../../assets/rsz_2md_mashrafil_pic4_-_copy-removebg_ggg.png
 const AboutMe = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1000, // Animation duration in milliseconds
-            once: true, // Whether animation should happen only once
+            duration: 1000, 
+            once: true, 
         });
     }, []);
 

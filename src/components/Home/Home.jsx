@@ -14,16 +14,16 @@ import Skill from "./Skill/Skill";
 const Home = () => {
     return (
         <div className="mt-16 ">
-            <Header></Header>
-            <Navbar></Navbar>
+            {/* <Header></Header>
+            <Navbar></Navbar> */}
            <div className=" mx-4 md:mx-5 lg:mx-0">
            <AboutMe></AboutMe>
-            <Skill></Skill>
+            {/* <Skill></Skill>
             <Experience></Experience>
             <Education></Education>
             <Projects></Projects>
             <Contact></Contact>
-            <Footer></Footer>
+            <Footer></Footer> */}
            </div>
         </div>
     );

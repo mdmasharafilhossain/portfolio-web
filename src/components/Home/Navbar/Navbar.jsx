@@ -17,12 +17,12 @@ const Navbar = () => {
   <div className="hero-overlay  bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="">
-      <h1 id='typewriter' className="mb-5  text-5xl font-bold">I'am Mohammad Mashrafil Hossain Mahi</h1>
-      <p className="mb-5 text-5xl font-bold">I'am a <span className='text-orange-600 border-b-2 border-orange-600'>{typeEffect}</span></p>
+      <h1 id='typewriter' className="mb-5  text-2xl md:text-5xl lg:text-5xl font-bold">I'am Mohammad Mashrafil Hossain Mahi</h1>
+      <p className="mb-5  text-2xl md:text-5xl lg:text-5xl font-bold">I'am a <span className='text-orange-600 border-b-2 border-orange-600'>{typeEffect}</span></p>
      
       <div className=''>
       
-      <a href='https://drive.google.com/file/d/1OndnKPtkB_Y9nDZ6tMxLgFBGM-b3hFyS/view?usp=drive_link'><button className="btn mt-10 bg-orange-700 text-white text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download Resume</button></a>
+      <a href='https://drive.google.com/file/d/1OndnKPtkB_Y9nDZ6tMxLgFBGM-b3hFyS/view?usp=drive_link'><button className="btn mt-10 bg-orange-700 text-white text-sm md:text-xl lg:text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download Resume</button></a>
       </div>
       
     </div>

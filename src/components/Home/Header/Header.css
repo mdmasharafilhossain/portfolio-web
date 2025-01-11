@@ -1,0 +1,17 @@
+@media (max-width: 400px) {
+    .navbar img {
+        width: 100px; /* Adjust logo size for very small screens */
+    }
+    .menu li a {
+        font-size: 18px; /* Slightly smaller font size for dropdown items */
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-center {
+        justify-content: center;
+    }
+    .navbar-end {
+        margin-right: 2rem; /* Ensure proper spacing for profile picture */
+    }
+}

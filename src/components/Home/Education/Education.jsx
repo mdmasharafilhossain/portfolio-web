@@ -26,7 +26,7 @@ const Education = () => {
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-7 h-7 text-orange-600"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
     </div>
     <div className="timeline-end timeline-box border-2 border-orange-600">
-    <h2 className="text-justify">Currently pursuing a Bachelor's degree in Computer Science and Engineering (CSE) at Green University of Bangladesh, entering my third year.Actively involved in hands-on projects and extracurricular activities, aiming to apply this education to drive innovation in technology.</h2>
+    <h2 className="text-justify">Currently pursuing a Bachelor's degree in Computer Science and Engineering (CSE) at Green University of Bangladesh, entering my last year.Actively involved in hands-on projects and extracurricular activities, aiming to apply this education to drive innovation in technology.</h2>
     </div>
     <hr className=" my-20 bg-orange-600" />
   </li>

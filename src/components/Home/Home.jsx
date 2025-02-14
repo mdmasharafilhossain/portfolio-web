@@ -18,12 +18,12 @@ const Home = () => {
             <Navbar></Navbar>
            <div className=" mx-4 md:mx-5 lg:mx-0">
            <AboutMe></AboutMe>
-            {/* <Skill></Skill>
+            <Skill></Skill>
             <Experience></Experience>
             <Education></Education>
             <Projects></Projects>
             <Contact></Contact>
-            <Footer></Footer> */}
+            <Footer></Footer>
            </div>
         </div>
     );

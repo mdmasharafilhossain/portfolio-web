@@ -18,14 +18,28 @@ const Experience = () => {
   <li>
     < hr className="bg-orange-600 my-10"/>
     <div className="timeline-start timeline-box border-2 border-orange-600">
-      <p className="text-3xl font-bold  text-orange-600">As a Learner</p>
-       <h2>02 July 2023 - Present | Web Developer</h2>
+      <p className="text-3xl font-bold  text-orange-600">Niyamat IT</p>
+       <h2>November 2024 to Present | Full Stack Developer</h2>
     </div>
     <div className="timeline-middle ">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-7 h-7 text-orange-600"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
     </div>
     <div className="timeline-end timeline-box border-2 border-orange-600">
-        <h2>I have created many projects, some of them only with HTML, CSS.Some of are Raw Javascript. Some of are React. I made a few projects with MERN Stack also</h2>
+        <h2>At Niyamat IT, I have been working as a Full Stack Developer (Full-time) since November 2024 in a remote role based in Narayanganj, Bangladesh. My responsibilities include managing full-stack development and maintenance of scalable web applications using the MERN stack. I handle both frontend and backend tasks, ensuring smooth deployment and optimal performance. Additionally, I have introduced modern UI components, enhancing the user experience with a more engaging and responsive design.</h2>
+    </div>
+    <hr className=" my-20 bg-orange-600" />
+  </li>
+  <li>
+    < hr className="bg-orange-600 my-10"/>
+    <div className="timeline-start timeline-box border-2 border-orange-600">
+      <p className="text-3xl font-bold  text-orange-600">Niyamat IT</p>
+       <h2>July 2024 to November 2024 | Full Stack Developer (Intern)</h2>
+    </div>
+    <div className="timeline-middle ">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-7 h-7 text-orange-600"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
+    </div>
+    <div className="timeline-end timeline-box border-2 border-orange-600">
+        <h2>I worked as a Full Stack Developer Intern at Niyamat IT from July 2024 to November 2024. During my internship, I focused on solving debugging issues and optimizing application performance for seamless functionality. I contributed to both front-end and back-end development, gaining valuable experience in building efficient and high-performing applications.</h2>
     </div>
     <hr className=" my-20 bg-orange-600" />
   </li>

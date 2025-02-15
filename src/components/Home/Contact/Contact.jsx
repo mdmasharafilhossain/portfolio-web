@@ -21,7 +21,7 @@ const Contact = () => {
       };
     return (
         <div  id="contact" className="mt-28 container mx-auto mb-10">
-            <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">Contact</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold border-l-4 pl-4 border-orange-600">Contact</h2>
             {/* service id: service_r3kvpqc */}
             {/* templete id : template_mo1il8d */}
             <form className='border-4 shadow-xl  border-orange-600 p-6 md:p-10 lg:p-20 lg:mr-72 lg:ml-96 mt-20' ref={form} onSubmit={sendEmail}>

@@ -13,12 +13,12 @@ const skills = [
 
 const Skill = () => {
     return (
-        <div id="skill" className="mt-20 container mx-auto px-4">
+        <div id="skill" className="mt-20 container mx-auto ">
             <motion.h2 
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-5xl font-bold border-l-4 pl-4 border-orange-600  md:text-left"
+                className="text-3xl sm:text-4xl lg:text-5xl font-bold border-l-4 pl-4 border-orange-600  md:text-left"
             >
                 Skills
             </motion.h2>

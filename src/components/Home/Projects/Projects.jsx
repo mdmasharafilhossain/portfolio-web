@@ -23,7 +23,7 @@ const Projects = () => {
   };
   return (
     <div id="projects" className="mt-28 container mx-auto mb-10">
-      <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold border-l-4 pl-4 border-orange-600">
         My Projects
       </h2>
       <div className="mt-20">

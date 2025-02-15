@@ -3,7 +3,7 @@ import { MdAssuredWorkload } from "react-icons/md";
 const Experience = () => {
     return (
         <div id="exp" className="mt-28 container mx-auto mb-10">
-            <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">Experience</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold border-l-4 pl-4 border-orange-600">Experience</h2>
             <div className="mt-20">
             <ul className="timeline timeline-vertical text-2xl">
   <li>

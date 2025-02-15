@@ -12,7 +12,7 @@ const AboutMe = () => {
     }, []);
 
     return (
-        <div id="about" className="mt-20 container mx-auto px-4 sm:px-6 lg:px-8">
+        <div id="about" className="mt-20 container mx-auto">
             <h2
                 className="text-3xl sm:text-4xl lg:text-5xl font-bold border-l-4 pl-4 border-orange-600"
                 data-aos="fade-down"

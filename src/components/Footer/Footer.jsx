@@ -11,7 +11,7 @@ const Footer = () => {
     <p className="font-bold text- text-lg text-orange-600">
     Mohammad Mashrafil Hossain Mahi
     </p> 
-    <p>Copyright © 2024 - All right reserved</p>
+    <p>Copyright © 2025 - All right reserved</p>
   </aside> 
   <nav>
     <div className="grid grid-flow-col gap-4">

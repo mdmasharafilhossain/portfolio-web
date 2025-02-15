@@ -1,44 +1,46 @@
+import { motion } from "framer-motion";
 
+const skills = [
+    { name: "HTML", value: 90 },
+    { name: "JAVASCRIPT", value: 60 },
+    { name: "CSS", value: 90 },
+    { name: "REACT", value: 70 },
+    { name: "NODE.JS", value: 50 },
+    { name: "EXPRESS.JS", value: 50 },
+    { name: "MONGODB", value: 60 },
+    { name: "TAILWIND", value: 80 },
+];
 
 const Skill = () => {
     return (
-        <div id="skill" className="mt-20 container mx-auto">
-            <h2 className="text-5xl font-bold border-l-4 pl-4 border-orange-600">Skills</h2>
-            <div className="mt-20 gap-24 lg:ml-40 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":90}} role="progressbar">90%</div>
-            <h1 className="ml-4 font-bold mt-1">HTML</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":60}} role="progressbar">60%</div>
-            <h1 className=" font-bold mt-1">JAVASCRIPT</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":90}} role="progressbar">90%</div>
-            <h1 className="ml-6 font-bold mt-1">CSS</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":70}} role="progressbar">70%</div>
-            <h1 className="ml-4 font-bold mt-1">REACT</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":50}} role="progressbar">50%</div>
-            <h1 className="ml-4 font-bold mt-1">NODE.JS</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":50}} role="progressbar">50%</div>
-            <h1 className="font-bold mt-1">EXPRESS.JS</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":60}} role="progressbar">60%</div>
-            <h1 className=" font-bold mt-1">MONGODB</h1>
-            </div>
-            <div>
-            <div className="radial-progress text-orange-600 " style={{"--value":80}} role="progressbar">80%</div>
-            <h1 className=" font-bold mt-1">TAILWIND</h1>
-            </div>
-            
-
+        <div id="skill" className="mt-20 container mx-auto px-4">
+            <motion.h2 
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5 }}
+                className="text-5xl font-bold border-l-4 pl-4 border-orange-600  md:text-left"
+            >
+                Skills
+            </motion.h2>
+            <div className="mt-20 gap-8 sm:gap-12 md:gap-16 lg:gap-24 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center">
+                {skills.map((skill, index) => (
+                    <motion.div 
+                        key={skill.name}
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                        className="flex flex-col items-center"
+                    >
+                        <div 
+                            className="radial-progress text-orange-600"
+                            style={{ "--value": skill.value }}
+                            role="progressbar"
+                        >
+                            {skill.value}%
+                        </div>
+                        <h1 className="text-center font-bold mt-1">{skill.name}</h1>
+                    </motion.div>
+                ))}
             </div>
         </div>
     );

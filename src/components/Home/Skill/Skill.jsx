@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const skills = [
     { name: "HTML", value: 90 },
     { name: "JAVASCRIPT", value: 60 },
@@ -12,12 +14,16 @@ const skills = [
 ];
 
 const Skill = () => {
+     useEffect(() => {
+            AOS.init({
+                duration: 1000, 
+                once: true, 
+            });
+        }, []);
     return (
-        <div id="skill" className="mt-20 container mx-auto ">
+        <div id="skill" className="mt-20 container mx-auto "data-aos="fade-down">
             <motion.h2 
-                initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5 }}
+                
                 className="text-3xl sm:text-4xl lg:text-5xl font-bold border-l-4 pl-4 border-orange-600  md:text-left"
             >
                 Skills

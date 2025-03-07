@@ -3,7 +3,7 @@ import { useTypewriter  } from 'react-simple-typewriter';
 import { FaDownload } from "react-icons/fa6";
 const Navbar = () => {
     const [typeEffect] = useTypewriter({
-        words: ['Software Engineer','Web Developer', 'Learner', 'Student'],
+        words: ['Web Developer', 'Software Engineer','Learner', 'Student'],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 40,
@@ -22,7 +22,7 @@ const Navbar = () => {
      
       <div className=''>
       
-      <a href='https://drive.google.com/file/d/1Sk-4BXWy32zOzGMsSkHkIcilLv9qw2KH/view?usp=sharing'><button className="btn mt-10 bg-orange-700 text-white text-sm md:text-xl lg:text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download CV</button></a>
+      <a href='https://drive.google.com/file/d/1wO4JO3J7LwwQY95yLIfE5EG7rqZGO_pi/view?usp=sharing'><button className="btn mt-10 bg-orange-700 text-white text-sm md:text-xl lg:text-xl font-bold py-2 px-4"><span><FaDownload /></span>Download Resume</button></a>
       </div>
       
     </div>
